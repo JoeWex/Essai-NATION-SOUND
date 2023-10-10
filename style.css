@@ -1,0 +1,180 @@
+
+@import url(/images/Font/quantify.ttf);
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: quantify;
+}
+
+/* HEADER DEBUT*/ 
+
+.sociaux-header a {
+  text-decoration: none; 
+}
+.sociaux-footer a {
+  text-decoration: none; 
+
+}
+.sociaux-footer img {
+  width: 50px; 
+}
+.partenair img {
+ background-color: rgba(83, 55, 8, 1); 
+}
+ 
+/* Burger Menu */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  right: -250px;
+  height: auto;
+  left: auto;
+  background-color: rgba(83, 55, 8, 1);
+  padding-top: 60px;
+  transition: left 0.5s ease;
+ 
+  
+}
+
+.sidenav ul {
+  list-style-type: none;
+ 
+}
+
+/* Sidenav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:rgba(255, 163, 0, 1);
+}
+
+/* Active class */
+.sidenav.active {
+  right: 0.5s ease;
+}
+
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 25px;
+}
+
+.burger-icon span {
+  display: flex;
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin: 6px 0;
+  
+}
+.burger-icon {
+  top: 10px;
+  right: 10px;
+
+}
+/* Bouton Newsletter */
+.btn-newsletter{
+  white-space: nowrap;
+  display: grid;
+  background-color: rgba(83, 55, 8, 1);
+  color: white;
+  border: none;
+  position: absolute;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 2px solid white;
+  margin-top: 10px;
+  padding: 0.5vw 1vw;
+  margin-left: 10px;
+
+  
+}
+.btn-newsletter:hover{
+  background-color: #FFA300;
+}
+
+/* Bouton Billetterie */
+.btn-billetterie{
+  display:grid;
+  padding: 10px 20px;
+  place-items: center;
+  gap: 10px; 
+  border-radius: 60px;
+  border: 2px solid white;
+  background: none;
+  box-shadow: 3px 3px 0px 0px #ffc35b; 
+  margin-bottom: 20px;
+  margin-right: 10px;
+  
+  }
+  .btn-billetterie:hover{
+  background-color:#FFA300;
+  }
+
+/* Presentation Artiste acceuil */
+
+/* Style pour la 1ère colonne */
+.col-lg-4 {
+  flex-direction: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  justify-items: center; /* Idem */
+
+}
+
+/* Style pour le texte "Vivez" */
+.col-md-12 {
+  width: 100%; /* Prend toute la largeur */
+  color: white;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.5rem; /* 140% */ 
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  }
+  
+/* Style pour les noms d'artistes */
+.col-md-6 {
+color: #F59D00;
+font-family: Quantify;
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 112% */
+text-transform: uppercase; 
+padding-top: 3rem;
+padding-bottom: 3rem;
+
+}
+/* Classe Bootstrap pour les colonnes */ 
+.col {
+ 
+}
+ /* Classe Bootstrap pour l'espacement entre colonnes */
+ .gx-2 {
+
+ }
+
+
+
+  
+ 
+
+
