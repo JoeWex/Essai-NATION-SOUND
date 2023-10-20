@@ -1,7 +1,4 @@
-
-@import url(/images/Font/quantify.ttf);
-
-
+@import url(https://fr.maisfontes.com/quantify.police);
 
 * {
   margin: 0;
@@ -9,22 +6,12 @@
   font-family: quantify;
 }
 
-/* HEADER DEBUT*/ 
 
-.sociaux-header a {
-  text-decoration: none; 
+/* HEADER DEBUT*/
+.sociaux-header a  {
+  text-decoration: none;
 }
-.sociaux-footer a {
-  text-decoration: none; 
 
-}
-.sociaux-footer img {
-  width: 50px; 
-}
-.partenair img {
- background-color: rgba(83, 55, 8, 1); 
-}
- 
 /* Burger Menu */
 .sidenav {
   height: 100%;
@@ -35,16 +22,16 @@
   right: -250px;
   height: auto;
   left: auto;
-  background-color: rgba(83, 55, 8, 1);
+  background-color: #533708;
   padding-top: 60px;
   transition: left 0.5s ease;
- 
-  
+  font-family: quantify;
+
 }
 
 .sidenav ul {
   list-style-type: none;
- 
+
 }
 
 /* Sidenav menu links */
@@ -80,30 +67,28 @@
   height: 4px;
   background-color: white;
   margin: 6px 0;
-  
+
 }
 .burger-icon {
   top: 10px;
   right: 10px;
+  height: auto;
 
 }
 /* Bouton Newsletter */
 .btn-newsletter{
   white-space: nowrap;
-  display: grid;
-  background-color: rgba(83, 55, 8, 1);
+  background-color: #533708;
   color: white;
   border: none;
   position: absolute;
   border-radius: 25px;
-  font-size: 14px;
+  font-size: 11px;
   cursor: pointer;
   border: 2px solid white;
-  margin-top: 10px;
   padding: 0.5vw 1vw;
-  margin-left: 10px;
+  margin-top: 0
 
-  
 }
 .btn-newsletter:hover{
   background-color: #FFA300;
@@ -111,70 +96,143 @@
 
 /* Bouton Billetterie */
 .btn-billetterie{
-  display:grid;
   padding: 10px 20px;
   place-items: center;
-  gap: 10px; 
+  gap: 10px;
   border-radius: 60px;
   border: 2px solid white;
   background: none;
-  box-shadow: 3px 3px 0px 0px #ffc35b; 
+  box-shadow: 3px 3px 0px 0px #ffc35b;
   margin-bottom: 20px;
-  margin-right: 10px;
-  
+
   }
   .btn-billetterie:hover{
   background-color:#FFA300;
   }
 
-/* Presentation Artiste acceuil */
+  /* HEADER FIN */
 
-/* Style pour la 1ère colonne */
-.col-lg-4 {
-  flex-direction: center; /* Centre horizontalement */
-  align-items: center; /* Centre verticalement */
-  justify-items: center; /* Idem */
-
-}
-
-/* Style pour le texte "Vivez" */
-.col-md-12 {
-  width: 100%; /* Prend toute la largeur */
-  color: white;
-  font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 3.5rem; /* 140% */ 
-  text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+/* IMAGE SABLE RESPONSIVE */
+  .custom-container {
+    background-image: url(/images/Image\ Sable.jpg);
+    background-size: cover; /* Rend l'image de fond responsive */
+    background-position: center; /* Centre l'image de fond horizontalement */
+    background-attachment: fixed; /* Facultatif - permet de conserver le fond lors du défilement */
   }
-  
-/* Style pour les noms d'artistes */
-.col-md-6 {
-color: #F59D00;
-font-family: Quantify;
-font-size: 4rem;
-font-style: normal;
-font-weight: 700;
-line-height: 56px; /* 112% */
-text-transform: uppercase; 
-padding-top: 3rem;
-padding-bottom: 3rem;
-
+  /* Ajoute un contour au texte */
+.custom-container p {
+  text-shadow: -1px -1px 1px #533708, 1px -1px 1px #533708, -1px 1px 1px #533708, 1px 1px 1px #533708;
 }
-/* Classe Bootstrap pour les colonnes */ 
-.col {
- 
+  /* Styles pour les écrans "sm" (small) et plus petits */
+@media (max-width: 576px) {
+  .custom-container {
+    font-size: 6vw; /* Taille de police plus grande pour les écrans "sm" */
+  }
 }
- /* Classe Bootstrap pour l'espacement entre colonnes */
- .gx-2 {
 
- }
+/* Styles pour les écrans "md" (medium) */
+@media (min-width: 577px) and (max-width: 991px) {
+  .custom-container {
+    font-size: 5vw; /* Taille de police pour les écrans "md" */
+  }
+}
 
+/* Styles pour les écrans "lg" (large) et plus grands */
+@media (min-width: 992px) {
+  .custom-container {
+    font-size: 4vw; /* Taille de police pour les écrans "lg" et plus grands */
+  }
+}
+/* BIENVENUE */
+#Bienvenue {
+  font-size: 20px;
+}
 
+/* Styles pour les écrans "sm" (small) et plus petits */
+@media (max-width: 576px) {
+  #Bienvenue {
+    font-size: 4vw; /* Taille de police plus grande pour les écrans "sm" */
+  }
+}
 
-  
- 
+/* Styles pour les écrans "md" (medium) */
+@media (min-width: 577px) and (max-width: 991px) {
+  #Bienvenue {
+    font-size: 3vw; /* Taille de police pour les écrans "md" */
+  }
+}
 
+/* Styles pour les écrans "lg" (large) et plus grands */
+@media (min-width: 992px) {
+  #Bienvenue {
+    font-size: 2vw; /* Taille de police pour les écrans "lg" et plus grands */
+  }
+}
+/* HISTOIRE */
 
+#histoire {
+  font-size: 20px;
+}
+
+/* Styles pour les écrans "sm" (small) et plus petits */
+@media (max-width: 576px) {
+  #histoire {
+    font-size: 4vw; /* Taille de police plus grande pour les écrans "sm" */
+  }
+}
+
+/* Styles pour les écrans "md" (medium) */
+@media (min-width: 577px) and (max-width: 991px) {
+  #histoire {
+    font-size: 2vw; /* Taille de police pour les écrans "md" */
+  }
+}
+
+/* Styles pour les écrans "lg" (large) et plus grands */
+@media (min-width: 992px) {
+  #histoire {
+    font-size: 2vw; /* Taille de police pour les écrans "lg" et plus grands */
+  }
+}
+
+/* FOOTER */
+.sociaux-footer a {
+  text-decoration: none;
+}
+/* BTN BILLETERIE */
+.btn-light {
+border-radius: 60px;
+border: 3px solid #533708;
+background: #533708;
+box-shadow: 5px 5px 0px 0px #A86D05;
+}
+
+/* IMAGE ARTISTE */
+
+/* EFFET hover-apparition du texte au survol */
+.artiste-text {
+  display: none; 
+}
+
+.artiste-image:hover + .artiste-text {
+  display: block;
+}
+/* EFFET SUR LE SURVOL DES IMAGES */
+.artiste-image img {
+  transition: all 0.3s; 
+}
+
+.artiste-image:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+/* CLIC pour SMARTPHONE ET TABLETTE */
+.artiste-text {
+  display: none;
+}
+
+@media (max-width: 801px) {
+  .artiste-text.show {
+    display: block;
+  }
+}

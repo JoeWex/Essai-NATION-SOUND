@@ -1,80 +1,274 @@
 <!DOCTYPE html>
+
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ESSAI NATION SOUND</title>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css">
-    
-    
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Découvrez NATION SOUND 2023,le nouveaux festival parisien de musique éclectique">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NATION SOUND - Acceuil</title>
+  <link rel="icon" type="image/svg+xml" href="/images/Logo/Logo.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="globals.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
-  
-  
-  <div class="resaux-sociaux">
-        <a href="https://www.facebook.com/votrepage" target="_blank">
-          <img src="images/Facebook-logo.png"> 
-        </a>
-        <a href="https://www.snapchat.com/add/votrecompte" target="_blank">
-          <img src="images/snapchat logo.png">
-        </a>
-        <a href="https://twitter.com/votrecompte" target="_blank">
-          <img src="images/twitter logo.png">
-        </a>
-        <a href="https://www.linkedin.com/company/votrepage" target="_blank">
-          <img src="images/Linkedin logo.png">
-        </a>
-        <a href="https://www.youtube.com/votrechaine" target="_blank">
-          <img src="images/Youtube logo.png">
-        </a>
-        <a href="https://www.instagram.com/votrecompte/" target="_blank">
-          <img src="images/Instagram logo.png">
-        </a>
-  </div>
+  <!-- HEADER DEBUT -->
+  <header class="container-fluid" style="background-color:#533708">
+    <!-- 1er LIGNE -->
+    <!-- Newsletter -->
+    <div class="row">
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <button type="button" class=" btn btn-newsletter">Inscription Newsletter</button>
+      </div>
 
-<div class="header">
-  <header>
-  <div id="mySidenav" class="sidenav">
-    <a id="closeBtn" href="index.html" class="close">&times;</a>
-    <ul>
-      <li><a href="index.html">Acceuil</a></li>
-      <li><a href="Infos pratiques.html">Infos pratiques</a></li>
-      <li><a href="Programmation.html">Programmation</a></li>
-      <li><a href="Billetterie.html">Billetterie</a></li>
-      <li><a href="FAQ.html">FAQ</a></li>
+      <!-- FR/EN -->
+      <div class="col-4 d-flex justify-content-end  align-items-center" style="color: white;">
+        <a href="french.html" hreflang="fr" style="text-decoration: none;color: white;">FR</a>/<a href="english.html"
+          style="text-decoration: none;color: white;" hreflang="en">EN</a>
+      </div>
+
+      <!--Menu Burger  -->
+      <div class="col-2 d-flex justify-content-end">
+        <div id="mySidenav" class="sidenav">
+          <a id="closeBtn" href="index.html" class="close">&times;</a>
+          <ul>
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="Infos pratiques.html">Infos pratiques</a></li>
+            <li><a href="Progammation.html">Programmation</a></li>
+            <li><a href="Billetterie.html">Billetterie</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="Nos-Partenaires.html">Partenaires</a></li>
+          </ul>
+        </div>
+
+        <a href="#" id="openBtn">
+          <span class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 2eme LIGNE -->
+    <!-- LOGO -->
+    <div class="row  align-items-center">
+      <div class="col-4  col-xl-4 d-flex justify-content-end align-items-center">
+        <img class="img-fluid" src="/images/Logo/Logo.svg" alt="Logo NATION SOUND">
+      </div>
+      <!--TITRE  -->
+      <div class="col-7 col-xl-5  d-flex flex-column align-items-center justify-content-center">
+        <h1 class="text-center">
+          <span style="color: white;font-size: 60px;">NATION</span>
+          <span style="color:#FFA300;font-size: 60px;">SOUND</span>
+        </h1>
+        <h2 class="text-center " style="color: white;font-size:15px;"> 27, 28 et 29 aout 2023 - Domaine de Saint Cloud
+        </h2>
+      </div>
+    </div>
+
+    <!-- 3eme Ligne -->
+    <!-- Resaux sociaux-->
+    <div class="row">
+      <div class="col-lg-2 d-flex justify-content-center align-items-center" style="margin-bottom: 10px;">
+        <div class="sociaux-header">
+          <a href="https://www.facebook.com/votrepage" target="_blank">
+            <img src="/images/sociaux/Facebook.svg" alt="Logo Facebook">
+          </a>
+          <a href="https://www.snapchat.com/add/votrecompte" target="_blank">
+            <img src="/images/sociaux/Snapchat.svg" alt="Logo Snapchat">
+          </a>
+          <a href="https://twitter.com/votrecompte" target="_blank">
+            <img src="/images/sociaux/X.svg" alt="Logo Twitter">
+          </a>
+          <a href="https://www.linkedin.com/company/votrepage" target="_blank">
+            <img src="/images/sociaux/Linkedin.svg" alt="Logo Linkedin">
+          </a>
+          <a href="https://www.youtube.com/votrechaine" target="_blank">
+            <img src="/images/sociaux/Youtube.svg" alt="Logo Youtube">
+          </a>
+          <a href="https://www.instagram.com/votrecompte/" target="_blank">
+            <img src="/images/sociaux/Instagram.svg" alt="Logo Instagram">
+          </a>
+        </div>
+      </div>
+      <!--Billetterie  -->
+      <div class="col-lg-2 offset-lg-8 text-center ">
+        <div class="btn-billetterie">
+          <a href="#"><button type="button" class="btn btn-outline" style="color: white;">Billetterie</button></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- FIN HEADER -->
+  <!-- DEBUT FAQ -->
+  <section style="background: linear-gradient(180deg, #533708 0%, #B27304 36.11%, #FFA300 100%); padding: 20px;color: white;">
+    <div class="row">
+    <img class="img-fluid" src="/images/FAQ-Photo.jpg" alt="Foules joyeuse devant un concert">
+    </div>
+    <div class="row d-flex justify-content-center align-items-center text-center" style="margin-bottom: 10px;margin-top: 10px;">
+      <div class="col-2 col-sm-2 col-xl-2">
+        <img class="img-fluid" src="/images/la_spinner.svg" alt="">
+      </div>
+  
+      <div class="col-4 col-sm-4 col-xl-2">
+        <p style="font-size: 30px;">FAQ</p>
+      </div>
+  
+      <div class="col-2 col-sm-2 col-xl-2">
+        <img class="img-fluid" src="/images/la_spinner.svg" alt="">
+      </div>
       
-    </ul>
-  </div>
-  
-  <a href="#" id="openBtn">
-    <span class="burger-icon">
-      <span></span>
-      <span></span>
-      <span></span>
-    </span>
-  </a>
- 
-  <div class="btn-container">
-  <button id="newsletter-btn"style="position: absolute; top: 10px; left: 10px;">Inscription newsletter</button>  
-  <button id="billetterie-btn"style="position: absolute; top: 120px; right: 10px;">Billetterie</button>
-  </div>
+      </div>
+      
+      <div class="row">
+        <p>JE NE REÇOIS PAS MON MAIL DE CONFIRMATION DE COMMANDE,<br>
+          Une fois commande validée, vous devriez recevoir un e-mail de confirmation de : donotreply@seetickets.com
+          Cet e-mail de confirmation comporte les détails de votre commande, notamment le spectacle, la date, le lieu, le
+          nombre de billets et le numéro de réservation.<br>
+          Attention : Les mails de suivi sont envoyés à l'adresse que vous avez utilisée pour passer la commande. Si vous
+          n'avez pas reçu de notification dans les 48 heures, nous vous invitons à vérifier vos autres comptes e-mail et à
+          vérifier le dossier « Spams » ou « Courrier indésirable » et votre « corbeille ».<br>
+          Si vous ne trouvez toujours pas votre e-mail de confirmation et que vous avez votre référence de commande : vous
+          pouvez demander son renvoi en cliquant sur suivi de commande.Vous n'avez pas votre référence de commande : pas de
+          panique, allez sur la page service client See Tickets dans « Détails oubliés », rentrez votre e-mail. À partir de là
+          vous retrouvez votre commande et vous pouvez vous renvoyer votre mail de confirmation de commande.</p>
+      </div>
+      <div class="row">
+        <p>JE ME SUIS TROMPÉ DE JOUR LORS DE L'ACHAT DU BILLET. EST-IL POSSIBLE DE MODIFIER OU D'ANNULER MA COMMANDE ?<br>
+          Désolé nous ne pouvons rien faire.
+          Conformément à l'article L.221-28 du Code de la Consommation, les billets achetés sur See Tickets ne sont ni
+          échangeables ni remboursables (sauf en cas d'annulation ou de report du spectacle selon les conditions de
+          l'organisateur).</p>
+      </div>
+      <div class="row">
+        <p>QUE DEVRAIS-JE PRÉSENTER À L'ENTRÉE DU FESTIVAL ?<br>
+          Pour tout achat d'un billet à tarif réduit, un justificatif et une pièce d'identité au format « physique »* seront
+          obligatoirement demandés:
+          - Moins de 25 ans : Pass Navigo Culture** avec la région Ile-de-France et pass voisins Paris 12ème.<br>
+          - Demandeurs d'emploi et bénéficiaire du RSA : attestation de moins de 6 mois.<br>
+          - Bénéficiaires de l'AAH : décision de la MDPH ou justificatif de versement du mois précédent.<br>
+          - Pour les étudiants : carte d'un établissement scolaire établi en France en cours de validité.<br>
+          *les documents d'identité au format numérique (sur téléphone portable) ou au format papier (copie de document
+          d'identité) ne peuvent pas être acceptés.<br>
+          ** Offre réservée aux clients Navigo de moins de 25ans justifiant d'un abonnement en cours de validité (hors Navigo
+          Jour, Easy et Découverte) à la date de visite du festival. Cette offre est valable pour les détenteurs d'un pass
+          mensuel, annuel, Liberté + ou Imagine R.<br>
+          Sans la présentation de ce(s) justificatif(s) à l'entrée du festival, l'accès sera refusé.</p>
+      </div>
+      <div class="row">
+        <p>REVENDRE MON BILLET:<br>
+          La seule plateforme officielle de revente de billet est ici : https://resell.seetickets.com/NATIONSOUND/</p>
+      </div>
+      <div class="row">
+      <p>ACCESSIBILITÉ POUR LES PERSONNES À MOBILITÉ RÉDUITE (PMR)<br>
+        Le festival NATION SOUND est organisé pour accueillir les personnes à mobilité réduite, en adaptant sa production
+        pour permettre de faciliter l'accès aux scènes et points principaux du festival.<br>
+        Toutes les scènes sont accessibles aux personnes à mobilité réduite, une estrade leur est réservée sur le devant la
+        scène de La Prairie et La Clarière.<br>
+        Tous les blocs sanitaires et bars sont aménagés pour permettre un accès aux PMR. Une entrée spéciale leur est dédiée.<br>
+        Les chiens d'assistance et guides d'aveugles sont autorisés sur le festival.<br>
+        Merci de contacter le festival jusqu'à J-2 afin de d'organiser votre venue : accessibilite@welovegreen.fr.<br>
+        Les structures spécialisées qui souhaitent emmener un groupe de personnes à mobilité réduite à un ou plusieurs
+        concerts sont priées d'envoyer, au moins deux semaines avant le festival, un mail aux équipes festival à l'adresse
+        suivante : accessibilite@Nationsound.fr.</p>
+    </div>
+    <div class="row">
+      <p>DES PROTECTIONS AUDITIVES SERONT-ELLES DISPONIBLES ?<br>
+        Des bouchons d'oreilles seront disponibles gratuitement à l'accueil et des casques de protection auditive pour
+        enfant seront en vente.<br>
+        Cette année, notre partenaire BLOX proposera ses produits spécialisés, en vente au stand merchandising du festival.
+        Profitez en amont d'une remise de 15% sur l'e-shop de BLOX grâce au code promo « ENJOYWLG23 » : offre valable
+        jusqu'au 24 mai 2023. Rendez-vous vite sur www.bloxearplugs.com.
+      </p>
+    </div>
+    <div class="row">
+      <p>LES ANIMAUX SONT-ILS AUTORISÉS SUR LE SITE DU FESTIVAL ?<br>
+        Non, les animaux ne sont pas autorisés.</p>
+    </div>
+    <div class="row">
+      <p>EST-IL POSSIBLE DE PRENDRE DES PHOTOS SANS AVOIR DE PERMISSION PARTICULIÈRE ?<br>
+        Il est en effet possible de prendre des photos sans permission à condition de ne pas utiliser de matériel
+        professionnel, auquel cas il vous faudra faire une demande d'accréditation.</p>
+    </div>
+    <div class="row">
+      <p>QUE SE PASSE T-IL SI ON ME PREND EN PHOTO/VIDÉO ?<br>
+        L'équipe de WE LOVE GREEN vous informe que l'événement sera filmé. Si vous participez au festival, vous reconnaissez
+        expressément que votre image pourra être exploitée dans le cadre de la production de programmes audiovisuels,
+        reports réalisés aux fins de promotion de l'événement, par tous moyens et sous tous formats et ce sans restriction de temps
+        ni de lieu.</p>
+    </div>
+    <div class="row">
+      <p>EST-IL POSSIBLE DE CÉDER MON PASS 2 OU 3 JOURS À QUELQU'UN ?<br>
+        Non, les pass 2j et 3j sont nominatifs, il ne peuvent pas être partagés. Couper votre bracelet le rendrait non
+        valide si le billet n'est pas à votre nom.</p>
+    </div>
+  </section>
+  <!-- FIN FAQ -->
+<!-- DEBUT FOOTER -->
+  <footer class="container-fluid" style="background-color:#533708;">
+    <div class="row d-flex justify-content-center align-items-center text-center">
+      <div class="col-sm-12 col-md-9 col-xl-9 text-center">
+        <a href="https://www.firestone.fr/" ><img src="/images/Partenaires/Firestone.svg" alt="Logo Firestone"></a>
+        <a href="https://www.hauts-de-seine.fr/"><img src="/images/Partenaires/Haut-de-Seine.svg" alt="Logo Haut de Seine"></a>
+        <a href="https://www.iledefrance.fr/"><img src="/images/Partenaires/Region-ile-de-France.svg" alt="Logo Region Ile de France"></a>
+        <a href="https://www.saintcloud.fr/"><img src="/images/Partenaires/Saint-Cloud.svg" alt="Logo Saint Cloud"></a>
+        <a href="https://www.brut.media/fr"><img src="/images/Partenaires/BRUT.svg" alt="Logo BRUT"></a>
+        <a href="https://www.liberation.fr/"><img src="/images/Partenaires/Liberation.svg" alt="Logo Libération"></a>
+        <a href="https://www.france.tv/"><img src="/images/Partenaires/France-tv.svg" alt="Logo France TV"></a>
+        <a href="https://swinkelsfamilybrewers.com"><img src="/images/Partenaires/Swinkels.svg" alt="Logo Swinkels"></a>
+      </div>
+      <!-- TITRE -->
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-9 col-xl-9 text-center" style="color: white;">
+          <h1>
+            <a href="/Index.html" style="text-decoration: none;"><span style="color: white;font-size: 70px;">NATION SOUND</span></a>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--BTN NEWSLETTER-->
+    <div class="row">
+      <div class="col-4 d-flex justify-content-start">
+        <button type="button" class=" btn btn-newsletter">Inscription Newsletter</button>
+      </div>
+      <!-- RESAUX SOCIAUX -->
+      <div class="col-sm-8 d-flex justify-content-end" style="margin-bottom: 10px;">
+        <div class="sociaux-footer">
+          <a href="https://www.facebook.com/votrepage" target="_blank">
+            <img src="/images/sociaux/Facebook.svg" alt="Logo Facebook">
+          </a>
+          <a href="https://www.snapchat.com/add/votrecompte" target="_blank">
+            <img src="/images/sociaux/Snapchat.svg" alt="Logo Snapchat">
+          </a>
+          <a href="https://twitter.com/votrecompte" target="_blank">
+            <img src="/images/sociaux/X.svg" alt="Logo Twitter">
+          </a>
+          <a href="https://www.linkedin.com/company/votrepage" target="_blank">
+            <img src="/images/sociaux/Linkedin.svg" alt="Logo Linkedin">
+          </a>
+          <a href="https://www.youtube.com/votrechaine" target="_blank">
+            <img src="/images/sociaux/Youtube.svg" alt="Logo Youtube">
+          </a>
+          <a href="https://www.instagram.com/votrecompte/" target="_blank">
+            <img src="/images/sociaux/Instagram.svg" alt="Logo Instagram">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-  <div class="titre-logo">
-    <div class="logo-ns"><img src="images/Logo.png" alt="Logo NATION SOUND"></div>
-    <h1>
-      <span style="color: white;">NATION</span> 
-      <span style="color:rgba(255, 163, 0, 1);">SOUND</span>
-    </h1> 
-  </div>
-</div>
-</header>
-
-
-
-
+<!-- FIN FOOTER -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+  integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+  integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <script src="/script.js"></script>
+
 </body>
+
 </html>
