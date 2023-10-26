@@ -1,624 +1,569 @@
 <!DOCTYPE html>
 
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Découvrez NATION SOUND 2023,le nouveaux festival parisien de musique éclectique" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NATION SOUND - Acceuil</title>
+    <link rel="icon" type="image/svg+xml" href="/images/Logo/Logo.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Découvrez NATION SOUND 2023,le nouveaux festival parisien de musique éclectique">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NATION SOUND - Acceuil</title>
-  <link rel="icon" type="image/svg+xml" href="/images/Logo/Logo.svg">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="globals.css" />
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <!-- HEADER DEBUT -->
-  <header class="container-fluid" style="background-color:#533708">
-    <!-- 1er LIGNE -->
-    <!-- Newsletter -->
-    <div class="row">
-      <div class="col-6 d-flex justify-content-start align-items-center">
-        <button type="button" class=" btn btn-newsletter">Inscription Newsletter</button>
-      </div>
-
-      <!-- FR/EN -->
-      <div class="col-4 d-flex justify-content-end  align-items-center" style="color: white;">
-        <a href="french.html" hreflang="fr" style="text-decoration: none;color: white;">FR</a>/<a href="english.html"
-          style="text-decoration: none;color: white;" hreflang="en">EN</a>
-      </div>
-
-      <!--Menu Burger  -->
-      <div class="col-2 d-flex justify-content-end">
-        <div id="mySidenav" class="sidenav">
-          <a id="closeBtn" href="index.html" class="close">&times</a>
-          <ul>
-            <li><a href="index.html">Acceuil</a></li>
-            <li><a href="Infos pratiques.html">Infos pratiques</a></li>
-            <li><a href="Progammation.html">Programmation</a></li>
-            <li><a href="Billetterie.html">Billetterie</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-            <li><a href="Nos-Partenaires.html">Partenaires</a></li>
-          </ul>
-        </div>
-
-        <a href="#" id="openBtn">
-          <span class="burger-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </a>
-      </div>
-    </div>
-
-    <!-- 2eme LIGNE -->
-    <!-- LOGO -->
-    <div class="row  align-items-center">
-      <div class="col-4  col-xl-4 d-flex justify-content-end align-items-center">
-        <img class="img-fluid" src="/images/Logo/Logo.svg" alt="Logo NATION SOUND">
-      </div>
-      <!--TITRE  -->
-      <div class="col-7 col-xl-5  d-flex flex-column align-items-center justify-content-center">
-        <h1 class="text-center">
-          <span style="color: white;font-size: 60px;">NATION</span>
-          <span style="color:#FFA300;font-size: 60px;">SOUND</span>
-        </h1>
-        <h2 class="text-center " style="color: white;font-size:15px;"> 27, 28 et 29 aout 2023 - Domaine de Saint Cloud
-        </h2>
-      </div>
-    </div>
-
-    <!-- 3eme Ligne -->
-    <!-- Resaux sociaux-->
-    <div class="row">
-      <div class="col-lg-2 d-flex justify-content-center align-items-center" style="margin-bottom: 10px;">
-        <div class="sociaux-header">
-          <a href="https://www.facebook.com/votrepage" target="_blank">
-            <img src="/images/sociaux/Facebook.svg" alt="Logo Facebook">
-          </a>
-          <a href="https://www.snapchat.com/add/votrecompte" target="_blank">
-            <img src="/images/sociaux/Snapchat.svg" alt="Logo Snapchat">
-          </a>
-          <a href="https://twitter.com/votrecompte" target="_blank">
-            <img src="/images/sociaux/X.svg" alt="Logo Twitter">
-          </a>
-          <a href="https://www.linkedin.com/company/votrepage" target="_blank">
-            <img src="/images/sociaux/Linkedin.svg" alt="Logo Linkedin">
-          </a>
-          <a href="https://www.youtube.com/votrechaine" target="_blank">
-            <img src="/images/sociaux/Youtube.svg" alt="Logo Youtube">
-          </a>
-          <a href="https://www.instagram.com/votrecompte/" target="_blank">
-            <img src="/images/sociaux/Instagram.svg" alt="Logo Instagram">
-          </a>
-        </div>
-      </div>
-      <!--Billetterie  -->
-      <div class="col-lg-2 offset-lg-8 text-center ">
-        <div class="btn-billetterie">
-          <a href="#"><button type="button" class="btn btn-outline" style="color: white;">Billetterie</button></a>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- FIN HEADER -->
-  <!-- PROGRAMMATION TITRE -->
-  <section style="background: linear-gradient(180deg, #533708 8%, #B27304 10%, #FFA300 100%);;color: white;">
-    <div class="container">
-      <div class="row" style="margin-bottom: 20px;">
-        <img class="img-fluid" src="/images/programmation-photo.jpg"
-          alt="Des gens devant une scene au coucher se soleil">
-      </div>
-      <div class="row d-flex justify-content-center align-items-center text-center" style="margin-bottom: 10px;">
-        <div class="col-2 col-sm-2 col-xl-2">
-          <img class="img-fluid" src="/images/la_spinner.svg" alt="">
-        </div>
-
-        <div class="col-8 col-sm- col-xl-4 text-center">
-          <p id="programmation" style="font-size: 25px;">PROGRAMMATION<br><span style="font-size: 18px;">Venez vibrer au
-              son de la diversité musicale!</span></p>
-        </div>
-
-        <div class="col-2 col-sm-2 col-xl-2">
-          <img class="img-fluid" src="/images/la_spinner.svg" alt="">
-        </div>
-      </div>
-    </div>
-    <!-- TABLEAU PROGRAMMATION -->
-    <!-- JEUDI 27 AOUT -->
-    <div class="container">
-      <div class="row d-flex">
-        <div class="col-md-4 text-center" style="margin-bottom: 18px;">
-          <p class="lh-lg" class="mb-2"
-            style="border: 2px solid #533708;border-radius: 10px;background-color: #FFA300;">JEUDI 27 AOUT</p>
-          <p class="lh-lg" style="border: 2px solid #533708;border-radius: 10px;background-color: #FFA300;">16H00 -
-            NIELLE ELLA<br>17H30 -
-            BONOBO<br>19H30 -
-            TAMINO<br>20H30 - BLUMI<br>21H30 - BRACCO<br>22H30 -TOVE LO<br>23H30 - THE STROKES<br>
-            <a href="/Billetterie.html">
-              <button type="button" style="color: #FFA300;margin-bottom: 10px;margin-top: 10px;"
-                class="btn btn-light">BILLETTERIE </button>
-            </a>
-          </p>
-        </div>
-
-        <!-- VENDREDI 28 AOUT -->
-        <div class="col-md-4 text-center" style="margin-bottom: 18px;">
-          <p class="lh-lg" class="mb-2"
-            style="border: 2px solid #533708;border-radius: 10px;background-color: #FFA300;">VENDREDI 27 AOUT</p>
-          <p class="lh-lg" style="border: 2px solid #533708;border-radius: 10px;background-color: #FFA300;">16H00 -
-            NIELLE ELLA<br>17H30 -
-            BONOBO<br>19H30 -
-            TAMINO<br>20H30 - BLUMI<br>21H30 - BRACCO<br>22H30 -TOVE LO<br>23H30 - THE STROKES<br>
-            <a href="/Billetterie.html">
-              <button type="button" style="color: #FFA300;margin-bottom: 10px;margin-top: 10px;"
-                class="btn btn-light">BILLETTERIE </button>
-            </a>
-          </p>
-        </div>
-        <!-- SAMEDI 29 AOUT-->
-        <div class="col-md-4 text-center" style="margin-bottom: 18px;">
-          <p class="lh-lg" class="mb-2" style="border: 2px solid #533708;border-radius: 10px;background-color:#FFA300;">
-            SAMEDI 28 AOUT</p>
-          <p class="lh-lg" style="border: 2px solid #533708;border-radius: 10px;background-color: #FFA300;">16H00 -
-            NIELLE ELLA<br>17H30 -
-            BONOBO<br>19H30 -
-            TAMINO<br>20H30 - BLUMI<br>21H30 - BRACCO<br>22H30 -TOVE LO<br>23H30 - THE STROKES<br>
-            <a href="/Billetterie.html">
-              <button type="button" style="color: #FFA300;margin-bottom: 10px;margin-top: 10px;"
-                class="btn btn-light">BILLETTERIE </button>
-            </a>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row d-flex justify-content-center align-items-center text-center" style="margin-bottom: 10px">
-        <div class="col-2 col-sm-2 col-xl-2">
-          <img class="img-fluid" src="/images/la_spinner.svg" alt="" />
-        </div>
-
-        <div class="col-8 col-sm- col-xl-2 text-center">
-          <p style="font-size: 30px">LES ARTISTES</p>
-        </div>
-
-        <div class="col-2 col-sm-2 col-xl-2">
-          <img class="img-fluid" src="/images/la_spinner.svg" alt="" />
-        </div>
-      </div>
-
-      <!-- ARTISTES -->
+  <body>
+    <!-- HEADER DEBUT -->
+    <header class="container-fluid" style="background-color: #533708">
+      <!-- 1er LIGNE -->
+      <!-- Newsletter -->
       <div class="row">
-        <!-- ROMY -->
-        <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
-          <div class="artiste-image d-flex justify-content-center">
-            <img class="img-fluid" style="border-radius: 30px;padding: 0;" src="/images/Artistes/romy.jpg"alt="La chanteuse ROMY"/>
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <button type="button" class="btn btn-newsletter">Inscription Newsletter</button>
+        </div>
+
+        <!-- FR/EN -->
+        <div class="col-4 d-flex justify-content-end align-items-center" style="color: white">
+          <a href="french.html" hreflang="fr" style="text-decoration: none; color: white">FR</a>/<a href="english.html" style="text-decoration: none; color: white" hreflang="en">EN</a>
+        </div>
+
+        <!--Menu Burger  -->
+        <div class="col-2 d-flex justify-content-end">
+          <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="index.html" class="close">&times</a>
+            <ul>
+              <li><a href="index.html">Acceuil</a></li>
+              <li><a href="Infos pratiques.html">Infos pratiques</a></li>
+              <li><a href="Progammation.html">Programmation</a></li>
+              <li><a href="Billetterie.html">Billetterie</a></li>
+              <li><a href="FAQ.html">FAQ</a></li>
+              <li><a href="Nos-Partenaires.html">Partenaires</a></li>
+            </ul>
           </div>
-          <div class="artiste-text text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 20px;background:linear-gradient(180deg, #533708 0%, #FFA300 46.88%, #FFA300 100%);">
-            <span style="font-size: 15px;color: white;">ROMY</span><br>
-              Tout comme Jamie XX et Oliver Sim, ses deux coéquipiers au sein de The XX, Romy Madley Croft s'offre une
-              parenthèse solo resplendissante depuis son premier single, Lifetime, sorti en 2020. Elle y révélait sous une
-              lumière éclatante ses aspirations Eurodance, une véritable affirmation de soi pour la discrète chanteuse du
-              trio anglais minimaliste. Sur son deuxième single, le bien nommé Strong, dévoilé en novembre dernier, elle
-              poursuit sur cette voie clubbing, mais pas tout à fait seule cette fois : le producteur, DJ et artiste
-              londonien Fred Again.. lui tient compagnie sur ce morceau où la tendresse et le désir d'intimité s'allient à
-              un dynamisme electro. Dans une interview pour la BBC en début d'année, Romy a annoncé que son premier album
-              en solitaire était presque terminé et que The XX préparait de nouvelles chansons aussi. A la bonne heure !
-          </div>
-        </div>
-        <!-- BONOBO -->
-        <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
-          <div class="artiste-image d-flex justify-content-center">
-            <img class="img-fluid" style="border-radius: 30px;padding: 0;" src="/images/Artistes/bonobo.jpg" alt="La chanteure BONOBO"/>
-          </div>
-          <div class="artiste-text text-center"style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 20px;background:linear-gradient(180deg, #533708 0%, #FFA300 46.88%, #FFA300 100%);">
-              <span style="font-size: 15px;color: white;">BONOBO</span><br>
-              C'est l'Anglais Simon Green, originaire de Brighton avant de s'exiler à Los Angeles, qui se cache derrière
-              le nom simiesque de Bonobo. A la fois DJ, producteur et musicien, ce quadragénaire a opté pour le versant le
-              plus apaisé de l'électro, entre ambient, électronica et trip hop. En toute tranquillité, il construit des
-              ambiances cotonneuses où il fait bon chiller, tout en s'autorisant des escapades vers la world music et le
-              nu jazz. Pour incarner ses morceaux basés sur des samples, il aime faire appel à des voix venues de
-              l'extérieur, citons par exemple Kadhja Bonet, Rhye, ou l'immense Erykah Badu. Ce goût du partage se
-              retrouve aussi dans ses performances scéniques, car cet artiste fédérateur s'entoure de tout un groupe de
-              musiciens, plutôt que de se produire seul avec ses machines.
-          </div>
-        </div>
-        <!-- THE CHEMICAL BROTHER -->
-        <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
-          <div class="artiste-image d-flex justify-content-center">
-            <img class="img-fluid" style="border-radius: 30px;padding: 0;" src="/images/Artistes/the-chemical-bro.jpg" alt="La groupe THE CHEMICAL BROTHERS"/>
-          </div>
-          <div class="artiste-text text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 20px;background:linear-gradient(180deg, #533708 0%, #FFA300 46.88%, #FFA300 100%);">
-            <span style="font-size: 15px;color: white;">THE CHEMICAL BROTHER</span><br>
-            En 1989, Ed Simons et Tom Rowlands ont formé leur groupe à Manchester, inspirés par la vitalité de la scène
-            musicale de leur ville (la salle de l'Haçienda en tête). Pionniers du mouvement big beat, un sous-genre de
-            l'electro qu'ils ont porté au firmament avec Fatboy Slim et The Prodigy, les deux Anglais ont derrière eux
-            plus de trente ans de carrière et une ribambelle de tubes inoxydables, notamment Hey Boy Hey Girl, nourri
-            par la house, Block Rockin'Beats, ou encore Let Forever Be et Setting Sun, tous deux chantés par Noel
-            Gallagher. Les Chemical Brothers font souvent appel à des voix extérieures, de Beck à Aurora. Leur dernier
-            album en date, No Geography, date de 2019 et montre à quel point ce tandem perdure sur son trône,
-            transformant ses shows hédonistes en grande célébration de toutes les musiques électroniques.
-          </div>
-        </div>
-        <!-- TOVE LO -->
-        <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
-          <div class="artiste-image d-flex justify-content-center">
-            <img class="img-fluid" style="border-radius: 30px;padding: 0;" src="/images/Artistes/tove-lo.jpg" alt="La chanteuse de TOVE LO"/>
-          </div>
-          <div class="artiste-text text-center" style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 20px;background:linear-gradient(180deg, #533708 0%, #FFA300 46.88%, #FFA300 100%);">
-            <span style="font-size: 15px;color: white;">TOVE LO</span><br>
-            “Etes-vous prêts à pleurer et à danser avec moi ?”, demande malicieusement Tove Lo sur YouTube dans la note
-            d'intention qui accompagne le clip de No One Dies from Love, single phare de son cinquième album, Dirt
-            Femme, dévoilé en octobre dernier. La question de cette autrice-compositrice scandinave peut se comprendre
-            comme un clin d'œil à sa réputation de pop-star “la plus dark de Suède”, comme la décrivait le magazine
-            américain Rolling Stone à l'époque de son premier album, Queen of the Clouds (2014). Sa pop se caractérise
-            effectivement par des paroles sans concessions, façon journal intime, juxtaposées à des mélodies mêlant
-            dance, electropop et synth-pop. En charge de son propre répertoire, Tove Lo s'est également illustrée en
-            co-écriture avec d'autres artistes, dont Lorde et Dua Lipa.
-          </div>
-        </div>
-        <!-- LIGNE 2  -->
-        <!-- GLAUQUE -->
-        <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
-          <div class="artiste-image d-flex justify-content-center">
-            <img class="img-fluid" style="border-radius: 30px;padding: 0;" src="/images/Artistes/glauque.jpg" alt="La chanteur de GLAUQUE" />
-          </div>
-          <div class="artiste-text text-center"style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 20px;background:linear-gradient(180deg, #533708 0%, #FFA300 46.88%, #FFA300 100%);">
-            <span style="font-size: 15px;color: white;">GLAUQUE</span><br>
-            Un premier EP éponyme en 2020 et hop, les garçons de Glauque ont démarré leur carrière sans crier gare.
-            Personne n'avait vu venir ce collectif belge, originaire de Namur, et c'est tant mieux : l'effet de surprise
-            s'avère particulièrement efficace. Pour situer leur musique, on citera deux de leurs influences
-            revendiquées, Odezenne et Moderat, soit côté pile du rap éclectique et désenchanté, et côté face de
-            l'electro alliant finesse et puissance. Armé de ces passions complémentaires et d'une aisance en live, le
-            groupe invente ses propres règles du jeu, notamment des textes en français où des questions existentielles
-            basées sur le réel entrent en collision avec une certaine dystopie. Glauque poursuit cette voie sans faire
-            la moindre concession, avec le ton radical qui lui sied si bien depuis trois ans.
-          </div>
-        </div>
-        <!-- COACH PARTY -->
-        <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
-          <div class="artiste-image d-flex justify-content-center">
-            <img class="img-fluid" style="border-radius: 30px;padding: 0;" src="/images/Artistes/coach-party.png" alt="Le groupe COACH PARTY" />
-          </div>
-          <div class="artiste-text text-center"style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 20px;background:linear-gradient(180deg, #533708 0%, #FFA300 46.88%, #FFA300 100%);">
-            <span style="font-size: 15px;color: white;">COACH PARTY</span><br>
-            Ces quatre Anglais dans le vent nous viennent de l'île de Wight, terre verdoyante plantée dans la Manche
-            entre leur patrie et les côtes françaises. Cette proximité géographique avec la France n'explique pas à elle
-            seule tout ce qui nous enivre dans ce rock qui n'a pas peur du tapage. Epaté par des artistes comme les
-            Strokes, Wolf Alice ou Tame Impala, le quatuor mixte sortira son premier album début septembre 2023
-            seulement, donc c'est à travers ses singles et plusieurs EP qu'il a déjà pu s'illustrer, ou alors en live,
-            en assurant les premières parties de Wet Leg et des Mysterines. Sans aucune baisse de régime, leurs morceaux
-            s'enchaînent et prolongent toujours plus loin leur pouvoir d'attraction. Les festivités de Coach Party ne
-            font que commencer !
-          </div>
-        </div>
-        <!-- CHROMEO  -->
-        <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
-          <div class="artiste-image d-flex justify-content-center">
-            <img class="img-fluid" style="border-radius: 30px;padding: 0;" src="/images/Artistes/chromeo.jpg" alt="La duo de CHROMEO" />
-          </div>
-          <div class="artiste-text text-center"style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 20px;background:linear-gradient(180deg, #533708 0%, #FFA300 46.88%, #FFA300 100%);">
-            <span style="font-size: 15px;color: white;">CHROMEO </span><br>
-            Plus de vingt ans de carrière, une ribambelle d'albums et de maxis, des concerts en pagaille à travers le
-            monde et même une nomination aux Grammy awards : Chromeo a de quoi bomber le torse quand il fait un point
-            sur son CV. Ce duo electro-funk canadien a été monté à Montréal en 2002 par deux anciens camarades de
-            classe, David Macklovitch (alias Dave 1, chanteur et guitariste) et Patrick Gemayel (alias P-Thugg,
-            claviériste et bassiste). Leurs morceaux enivrants poussent au frétillement des corps, et ce ne sont pas les
-            artistes avec qui ils ont collaboré qui diront le contraire. De Solange Knowles à Toro Y Moi, de French
-            Montana et Stefflon Don à Raphael Saadiq, la liste de celles et ceux qui ont travaillé avec ces deux quadras
-            est sans fin. Une bonne façon de montrer la diversité des styles qu'ils manient avec dextérité.
-          </div>
-        </div>
-       
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-        <!-- BRACCO -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/bracco.png" alt="Les deux Chanteurs de BRACCOO" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">BRACCO</span><br>
-            BRACCO
-            Des beats implacables, des synthés rêches et une envie d'en découdre là, tout de suite : bienvenue dans le
-            monde de Bracco, duo parisien qui fait un braquage dans la scène dark wave de la capitale. Signés chez
-            l'irréprochable label indépendant Born Bad, Baptiste et Loren en sont déjà à leur deuxième album, Dromonia,
-            conçu en résidence à La Station, Gare des Mines, puis enregistré au studio La Seine et enfin sorti en fin
-            d'année dernière. Entre post-punk lancinant et techno sombre, leur musique nous saisit autant en studio que
-            sur scène, avec Loren installé aux synthés et aux machines en tout genre, et Baptiste au chant et à la
-            guitare. Revendiquant haut et fort son amour pour DAF, Suicide, Throbbing Gristle et autres Psychic TV,
-            Bracco débarque avec fracas dans cet arbre généalogique aux branches tortueuses.
-          </figcaption>
-        </div>
-        <!-- LIGNE 3 -->
-        <!-- HUMAN EYES -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/human-eyes.png" alt="Le groupe HUMAN EYES" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">HUMAN EYES </span><br>
-            Union du métal death et progressif, voici Human Eyes. Fondé par des musiciens passionnés, Human Eyes tente
-            toujours de repousser les limites du genre. Riffs puissants, batterie énervée et growls s'allient pour créer
-            des compositions à l'image du groupe. Regard porté sur le monde, le groupe tente toujours d'allier des
-            textes introspectifs aux sons de la septième corde pour plaire au public.
-            Préparez-vous à être transporté dans un univers où la beauté et la brutalité se rencontrent, et où la
-            communion avec le public est le mot d'ordre.
-          </figcaption>
-        </div>
-        <!-- GAZ COOMBES -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/gaz-combes.jpg"
-            alt="La Chanteur de GAZ COOMBES" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">GAZ COOMBES</span><br>
-            “Longue vie aux bizarres” chante Gaz Coombes sur son nouvel album solo, Turn the Car Around, sorti cet
-            hiver. Le chanteur et guitariste hirsute de Supergrass a toujours eu un faible pour les antihéros et cette
-            quatrième œuvre en solitaire ne déroge pas à la règle. En explorant aujourd'hui le glam rock et la soul, ce
-            natif d'Oxford offre une musicalité plus soignée qu'à ses débuts et un timbre de voix d'une solidité
-            impressionnante, sans perdre sa frénésie en live. Capable, comme ses copains des Last Shadow Puppets,
-            d'alterner entre ballades sensibles et rythmes plus pêchus, le quadra anglais est l'énième preuve qu'il y a
-            bel et bien une vie après la Britpop, comme l'ont déjà confirmées les trajectoires de Damon Albarn ou des
-            frères Gallagher.
-          </figcaption>
-        </div>
-        <!-- SHMI SKA -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/shmi ska.png" alt="La Chanteuse de SHMI SKA" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">SHMI SKA</span><br>
-            Formé une semaine avant sa qualification pour Rock en Seine, Shmiska est un groupe d'indie-rock qui s'est
-            constitué comme une évidence. Musicien·ne·s depuis l'enfance, le trio a vécu une semaine de préparation
-            intense qui a mis leurs talents à rude épreuve, poussé par l'envie de vivre de nouvelle expérience grâce à
-            la musique. Laissez-vous séduire par leur spontanéité et leurs musiques envoutantes !
-          </figcaption>
-        </div>
-        <!-- THE STOKES -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/the-strokes.jpg" alt="Le groupe The STOKES" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">THE STOKES</span><br>
-            Rarissime en France, le quintet incarne à lui seul le rock moderne, heureux de faire référence à son passé
-            tout en restant à l'affût des sons d'aujourd'hui. Ces New-Yorkais nous feront l'honneur d'une visite au parc
-            de Saint-Cloud, pour la première fois de leur carrière et en exclusivité. On trépigne d'impatience à l'idée
-            de voir sur scène Julian Casablancas et sa bande, dont le sixième album, The New Abnormal, produit par le
-            légendaire Rick Rubin, a été l'un des grands moments de l'année musicale 2020. Cette dernière sortie en date
-            s'est révélée fabuleuse, mais les Américains savent aussi faire plaisir aux fans de la première heure, en
-            interprétant des extraits de leur glorieux répertoire, notamment certains singles qu'ils ont regroupé fin
-            2022 dans un gargantuesque coffret.
-          </figcaption>
-        </div>
-        <!-- LIGNE 4 -->
-        <!-- FEATHER AID -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/feather-day.png" alt="Le groupe FEATHER AID " />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">FEATHER AID</span><br>
-            Feather Aid est avant tout un groupe d'amis. Ils se sont naturellement rapprochés les uns des autres autour
-            de leur passion commune pour la musique, et c'est ainsi que le groupe de rock a vu le jour. Le mélange de
-            leurs profils assez différents a donné naissance à leurs premières compositions, qui continuent à évoluer au
-            fil du temps. Thomas, le guitariste, et Eloi, le chanteur/bassiste, sont à l'origine de leurs premières
-            musiques, comptant toujours sur Paul Enee, le deuxième guitariste, et Rafaël, le batteur, pour apporter la
-            touche finale à chaque morceau. Après plus de deux ans de concerts aux quatre coins de l'Île-de-France, le
-            quatuor tient bon, multipliant les nouvelles compositions de rock progressif, avec une soif de scène et
-            d'adrénaline de plus en plus intense.
-          </figcaption>
-        </div>
-        <!-- TAMINO-->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/tamino.jpg" alt="Le Chanteur de TAMINO" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">TAMINO</span><br>
-            Tamino fait partie de ces artistes qui ont le pouvoir magique de suspendre le temps dès l'instant où ils
-            ouvrent la bouche : un ensorcellement auditif auquel on succombe sans aucune protestation. Sa voix de quatre
-            octaves et son premier album habité (Amir, 2018) lui ont valu des comparaisons au regretté Jeff Buckley,
-            avec qui il partage un grand nombre d'influences (Edith Piaf, Leonard Cohen…). Heureusement, l'Anversois de
-            26 ans a su s'éloigner de cette référence qui lui collait à la peau. Sur son deuxième album, Sahar, sorti en
-            septembre dernier, il canalise ses envolées lyriques pour des ambiances folk plus feutrées, sans pour autant
-            renier son ADN, en particulier les touches orientales qui ont fait la gloire de son grand-père, le chanteur
-            égyptien Moharram Fouad. Sa seconde participation à Rock en Seine est attendue avec impatience.
-          </figcaption>
-        </div>
-        <!-- BLUMI -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/blumi.jpg" alt="La Chanteuse de BLUMI" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">BLUMI</span><br>
-            BLUMI
-            De Feist à Bon Iver, de Thousand à Olivier Marguerit, la Franco-Britannique Emma Broughton (alias Blumi) a
-            accompagné des artistes vibrant⸱e⸱s. En plus d'être sur tous les bons coups, cette chanteuse
-            multi-instrumentiste commence également à tisser sa propre œuvre solo : un premier EP, I Know About You, en
-            2021, suivi de There Is No End in Me l'année dernière. Sur ces deux maxis, on assiste aux premiers pas d'une
-            artiste qui sait comment nous remuer profondément, en tout élégance, sans se disperser, avec une pop
-            intemporelle qui fait cohabiter paisiblement l'acoustique et l'électronique. Une musique harmonieuse où l'on
-            perçoit une admiration pour le jazz, Joan As a Policewoman et Beth Gibbons. L'un de ses morceaux s'appelle
-            Everyone Heals, “tout le monde guérit” : les chansons réconfortantes de Blumi y sont pour quelque chose.
-          </figcaption>
-        </div>
-        <!-- NIELLE ELLA -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/nielle-ella.jpg"
-            alt="La Chanteuse de NIELLE ELLA" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">NIELLE ELLA</span><br>
-            De ses débuts sur TikTok, Nieve Ella a gardé une immédiateté rafraichissante, loin des stars inaccessibles
-            de la pop d'aujourd'hui. Cette Anglaise a accédé à la cour des grands en signant chez AWAL (quartier général
-            de Girl In Red, Little Simz, Jungle…). Son premier single, dévoilé l'été dernier, a laissé place début 2023
-            à un EP, Young & Naive, regroupant cinq morceaux indie pop qu'elle a composés, avec des textes qui reflètent
-            ses questionnements de jeune adulte (“Je me sens grande mais je suis toujours sur la plage arrière”,
-            chante-t-elle dans le refrain de 19 in a Week). Elle dit s'inspirer d'artistes comme Sam Fender et Phoebe
-            Bridgers, des références bien de son âge (20 ans) et les musiciens qui l'accompagnent sur scène comptent
-            parmi ses meilleurs amis. Retenez bien ce nom !
-          </figcaption>
-        </div>
-        <!-- LIGNE 5 -->
-        <!-- NKA -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/nka.jpg" alt="La Chanteuse de NKA" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">NKA</span><br>
-            Quand la douceur apaisante de November Ultra fusionne avec la néo-soul de Jorja Smith, on obtient des
-            sonorités proches de ce que propose NKA, chanteuse qui compose elle-même ses chansons. A califourchon entre
-            la langue française et l'anglais, entre ses observations sur sa vie parisienne et ses racines camerounaises,
-            cette artiste à fleur de peau sonde son vague à l'âme avec finesse et pudeur. Avant de livrer son premier
-            EP, La Lune, en décembre dernier, NKA a collaboré avec une foule de talents aux influences multiples : Mykki
-            Blanco, Clara Luciani, Lous and the Yakuza, Kiddy Smile… C'est désormais en solitaire que cette jeune femme
-            s'exprime, en piochant dans le R'n'B, l'electro minimaliste, le gospel, le jazz et la chanson française. A
-            découvrir d'urgence !
-          </figcaption>
-        </div>
-        <!-- VIAGRA BOY -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/viagra-boy.jpg" alt="Le groupe de VIAGRA BOY" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">VIAGRA BOY</span><br>
-            A des années-lumière des poses coquettes et des discours inoffensifs de certains groupes à guitares actuels,
-            ce gang de Stockholm revient à l'essence même du rock : le danger. Iggy Pop, qui chantait Gimme Danger il y
-            a pile cinquante ans, fait partie de leur fan-club. Trois albums, sortis entre 2018 et 2022, permettent de
-            mesurer l'ampleur de leur génie, de leurs riffs destroy à leurs rythmiques implacables, sans oublier
-            l'humour noir qui surgit par piques impitoyables dans leurs paroles. Tous les machos, conspirationnistes et
-            populistes en prennent pour leur grade sur ces brûlots qui entremêlent post-punk tumultueux et rock ardent.
-            Est-il bien nécessaire de préciser que leurs concerts émeutiers sont largement à la hauteur de ce qu'ils
-            proposent en studio ? Assurément l'un des groupes les plus bouillonnants de la scène rock de 2023.
-          </figcaption>
-        </div>
-        <!-- TURNSTILE -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/turnstile.jpg" alt="Le Chanteur de TURNSTILE" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">TURNSTILE</span><br>
-            Issu de la scène hardcore de Baltimore, ce groupe tout feu tout flamme a l'audace de sa jeunesse et ose le
-            décloisonnement, alors que beaucoup de formations punk respectent un peu trop scrupuleusement les dogmes de
-            ce genre musical. Résultat : les albums de Turnstile comportent souvent des guests de luxe venus d'autres
-            styles, par exemple Diplo, Blood Orange, ou encore la chanteuse et guitariste Julien Baker. Pour se préparer
-            aux déflagrations ébouriffantes que nous réservent ces Américains, on peut d'ores et déjà écouter leurs
-            trois albums, publiés entre 2015 et 2021. Le dernier en date, Glow On, a été vivement acclamé
-            outre-Atlantique, à tel point qu'ils ont reçu trois nominations aux Grammy Awards 2023. </figcaption>
-        </div>
-        <!-- THE BIG IDEA -->
-        <div class=" figure col-3 mb-3 text-toggle">
-          <img class=" figure-img center-image" src="/images/Artistes/the-big-idea.jpg"
-            alt="Le groupe de THE BIG IDEA" />
-          <figcaption class="figure-caption text-center"
-            style="color: white;border: 2px solid #533708;border-radius: 35px;margin-top: 10px;"><span
-              style="font-size: 15px;">THE BIG IDEA</span><br>
-            Vivre à deux pas de la mer pousse à l'évasion vers le grand large. Les six compères de ce groupe, anciens
-            camarades de lycée à La Rochelle, ne s'appellent pas The Big Idea pour rien. Le regard vers l'horizon, ils
-            ont effectivement eu une “grande idée”, un projet fou à réaliser ensemble : enregistrer un album à bord d'un
-            voilier voguant sur l'Atlantique. Après une préparation rigoureuse durant laquelle ils ont écrit des démos,
-            appris à naviguer et retapé un bateau (Le Grand Vésigue), les compères se sont lancés et le fantasme est
-            devenu réalité.L'album en question, La fabuleuse expédition Le Grand Vésigue, rend compte de ce trip
-            improbable mais vrai à travers des morceaux somptueux, d'une jolie fluidité entre pop finement orchestrée,
-            esprit rock et inspirations capverdiennes suite à une escale sur les terres de Cesária Evora.lutôt que de se
-            produire seul avec ses machines.
-          </figcaption>
+          <a href="#" id="openBtn">
+            <span class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
         </div>
       </div>
-    </div>
 
-
-  </section>
-
-
-
-
-
-  <!-- DEBUT FOOTER -->
-  <footer class="container-fluid" style="background-color:#533708;">
-    <div class="row d-flex justify-content-center align-items-center text-center">
-      <div class="col-sm-12 col-md-9 col-xl-9 text-center">
-        <a href="https://www.firestone.fr/"><img src="/images/Partenaires/Firestone.svg" alt="Logo Firestone"></a>
-        <a href="https://www.hauts-de-seine.fr/"><img src="/images/Partenaires/Haut-de-Seine.svg"
-            alt="Logo Haut de Seine"></a>
-        <a href="https://www.iledefrance.fr/"><img src="/images/Partenaires/Region-ile-de-France.svg"
-            alt="Logo Region Ile de France"></a>
-        <a href="https://www.saintcloud.fr/"><img src="/images/Partenaires/Saint-Cloud.svg" alt="Logo Saint Cloud"></a>
-        <a href="https://www.brut.media/fr"><img src="/images/Partenaires/BRUT.svg" alt="Logo BRUT"></a>
-        <a href="https://www.liberation.fr/"><img src="/images/Partenaires/Liberation.svg" alt="Logo Libération"></a>
-        <a href="https://www.france.tv/"><img src="/images/Partenaires/France-tv.svg" alt="Logo France TV"></a>
-        <a href="https://swinkelsfamilybrewers.com"><img src="/images/Partenaires/Swinkels.svg" alt="Logo Swinkels"></a>
-      </div>
-      <!-- TITRE -->
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-sm-12 col-md-9 col-xl-9 text-center" style="color: white;">
-          <h1>
-            <a href="/Index.html" style="text-decoration: none;"><span style="color: white;font-size: 70px;">NATION
-                SOUND</span></a>
+      <!-- 2eme LIGNE -->
+      <!-- LOGO -->
+      <div class="row align-items-center">
+        <div class="col-4 col-xl-4 d-flex justify-content-end align-items-center">
+          <img class="img-fluid" src="/images/Logo/Logo.svg" alt="Logo NATION SOUND" />
+        </div>
+        <!--TITRE  -->
+        <div class="col-7 col-xl-5 d-flex flex-column align-items-center justify-content-center">
+          <h1 class="text-center">
+            <span style="color: white; font-size: 60px">NATION</span>
+            <span style="color: #ffa300; font-size: 60px">SOUND</span>
           </h1>
+          <h2 class="text-center" style="color: white; font-size: 15px">27, 28 et 29 aout 2023 - Domaine de Saint Cloud</h2>
         </div>
       </div>
-    </div>
-    <!--BTN NEWSLETTER-->
-    <div class="row">
-      <div class="col-4 d-flex justify-content-start">
-        <button type="button" class=" btn btn-newsletter">Inscription Newsletter</button>
-      </div>
-      <!-- RESAUX SOCIAUX -->
-      <div class="col-sm-8 d-flex justify-content-end" style="margin-bottom: 10px;">
-        <div class="sociaux-footer">
-          <a href="https://www.facebook.com/votrepage" target="_blank">
-            <img src="/images/sociaux/Facebook.svg" alt="Logo Facebook">
-          </a>
-          <a href="https://www.snapchat.com/add/votrecompte" target="_blank">
-            <img src="/images/sociaux/Snapchat.svg" alt="Logo Snapchat">
-          </a>
-          <a href="https://twitter.com/votrecompte" target="_blank">
-            <img src="/images/sociaux/X.svg" alt="Logo Twitter">
-          </a>
-          <a href="https://www.linkedin.com/company/votrepage" target="_blank">
-            <img src="/images/sociaux/Linkedin.svg" alt="Logo Linkedin">
-          </a>
-          <a href="https://www.youtube.com/votrechaine" target="_blank">
-            <img src="/images/sociaux/Youtube.svg" alt="Logo Youtube">
-          </a>
-          <a href="https://www.instagram.com/votrecompte/" target="_blank">
-            <img src="/images/sociaux/Instagram.svg" alt="Logo Instagram">
-          </a>
+
+      <!-- 3eme Ligne -->
+      <!-- Resaux sociaux-->
+      <div class="row">
+        <div class="col-lg-2 d-flex justify-content-center align-items-center" style="margin-bottom: 10px">
+          <div class="sociaux-header">
+            <a href="https://www.facebook.com/votrepage" target="_blank">
+              <img src="/images/sociaux/Facebook.svg" alt="Logo Facebook" />
+            </a>
+            <a href="https://www.snapchat.com/add/votrecompte" target="_blank">
+              <img src="/images/sociaux/Snapchat.svg" alt="Logo Snapchat" />
+            </a>
+            <a href="https://twitter.com/votrecompte" target="_blank">
+              <img src="/images/sociaux/X.svg" alt="Logo Twitter" />
+            </a>
+            <a href="https://www.linkedin.com/company/votrepage" target="_blank">
+              <img src="/images/sociaux/Linkedin.svg" alt="Logo Linkedin" />
+            </a>
+            <a href="https://www.youtube.com/votrechaine" target="_blank">
+              <img src="/images/sociaux/Youtube.svg" alt="Logo Youtube" />
+            </a>
+            <a href="https://www.instagram.com/votrecompte/" target="_blank">
+              <img src="/images/sociaux/Instagram.svg" alt="Logo Instagram" />
+            </a>
+          </div>
+        </div>
+        <!--Billetterie  -->
+        <div class="col-lg-2 offset-lg-8 text-center">
+          <div class="btn-billetterie">
+            <a href="#"><button type="button" class="btn btn-outline" style="color: white">Billetterie</button></a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </header>
+    <!-- FIN HEADER -->
+    <!-- PROGRAMMATION TITRE -->
+    <section style="background: linear-gradient(180deg, #533708 8%, #b27304 10%, #ffa300 100%); color: white">
+      <div class="container">
+        <div class="row" style="margin-bottom: 20px">
+          <img class="img-fluid" src="/images/programmation-photo.jpg" alt="Des gens devant une scene au coucher se soleil" />
+        </div>
+        <div class="row d-flex justify-content-center align-items-center text-center" style="margin-bottom: 10px">
+          <div class="col-2 col-sm-2 col-xl-2">
+            <img class="img-fluid" src="/images/la_spinner.svg" alt="" />
+          </div>
 
-  <!-- FIN FOOTER -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
-  <script src="/script.js"></script>
-</body>
+          <div class="col-8 col-sm- col-xl-4 text-center">
+            <p id="programmation" style="font-size: 25px">PROGRAMMATION<br /><span style="font-size: 18px">Venez vibrer au son de la diversité musicale!</span></p>
+          </div>
 
+          <div class="col-2 col-sm-2 col-xl-2">
+            <img class="img-fluid" src="/images/la_spinner.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- TABLEAU PROGRAMMATION -->
+      <!-- JEUDI 27 AOUT -->
+      <div class="container mx-auto">
+        <div class="row d-flex">
+          <div class="col-md-4 text-center" style="margin-bottom: 18px">
+            <p class="lh-lg" class="mb-2" style="border: 2px solid #533708; border-radius: 10px; background-color: #ffa300">JEUDI 27 AOUT</p>
+            <p class="lh-lg" style="border: 2px solid #533708; border-radius: 10px; background-color: #ffa300">
+              16H00 - NIELLE ELLA<br />17H30 - BONOBO<br />19H30 - TAMINO<br />20H30 - BLUMI<br />21H30 - BRACCO<br />22H30 -TOVE LO<br />23H30 - THE STROKES<br />
+              <a href="/Billetterie.html">
+                <button type="button" style="color: #ffa300; margin-bottom: 10px; margin-top: 10px" class="btn btn-light">BILLETTERIE</button>
+              </a>
+            </p>
+          </div>
+
+          <!-- VENDREDI 28 AOUT -->
+          <div class="col-md-4 text-center" style="margin-bottom: 18px">
+            <p class="lh-lg" class="mb-2" style="border: 2px solid #533708; border-radius: 10px; background-color: #ffa300">VENDREDI 27 AOUT</p>
+            <p class="lh-lg" style="border: 2px solid #533708; border-radius: 10px; background-color: #ffa300">
+              16H00 - NIELLE ELLA<br />17H30 - BONOBO<br />19H30 - TAMINO<br />20H30 - BLUMI<br />21H30 - BRACCO<br />22H30 -TOVE LO<br />23H30 - THE STROKES<br />
+              <a href="/Billetterie.html">
+                <button type="button" style="color: #ffa300; margin-bottom: 10px; margin-top: 10px" class="btn btn-light">BILLETTERIE</button>
+              </a>
+            </p>
+          </div>
+          <!-- SAMEDI 29 AOUT-->
+          <div class="col-md-4 text-center" style="margin-bottom: 18px">
+            <p class="lh-lg" class="mb-2" style="border: 2px solid #533708; border-radius: 10px; background-color: #ffa300">SAMEDI 28 AOUT</p>
+            <p class="lh-lg" style="border: 2px solid #533708; border-radius: 10px; background-color: #ffa300">
+              16H00 - NIELLE ELLA<br />17H30 - BONOBO<br />19H30 - TAMINO<br />20H30 - BLUMI<br />21H30 - BRACCO<br />22H30 -TOVE LO<br />23H30 - THE STROKES<br />
+              <a href="/Billetterie.html">
+                <button type="button" style="color: #ffa300; margin-bottom: 10px; margin-top: 10px" class="btn btn-light">BILLETTERIE</button>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--LES ARTISTES -->
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center text-center" style="margin-bottom: 10px">
+          <div class="col-2 col-sm-2 col-xl-2">
+            <img class="img-fluid" src="/images/la_spinner.svg" alt="" />
+          </div>
+
+          <div class="col-8 col-sm- col-xl-2 text-center">
+            <p style="font-size: 30px">LES ARTISTES</p>
+          </div>
+
+          <div class="col-2 col-sm-2 col-xl-2">
+            <img class="img-fluid" src="/images/la_spinner.svg" alt="" />
+          </div>
+        </div>
+
+        <!--  FICHE ARTISTES -->
+        <div class="row">
+          <!-- ROMY -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/romy.jpg" alt="La chanteuse ROMY" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">ROMY</span><br />
+              Tout comme Jamie XX et Oliver Sim, ses deux coéquipiers au sein de The XX, Romy Madley Croft s'offre une parenthèse solo resplendissante depuis son premier single, Lifetime, sorti en
+              2020. Elle y révélait sous une lumière éclatante ses aspirations Eurodance, une véritable affirmation de soi pour la discrète chanteuse du trio anglais minimaliste. Sur son deuxième
+              single, le bien nommé Strong, dévoilé en novembre dernier, elle poursuit sur cette voie clubbing, mais pas tout à fait seule cette fois : le producteur, DJ et artiste londonien Fred
+              Again.. lui tient compagnie sur ce morceau où la tendresse et le désir d'intimité s'allient à un dynamisme electro. Dans une interview pour la BBC en début d'année, Romy a annoncé que
+              son premier album en solitaire était presque terminé et que The XX préparait de nouvelles chansons aussi. A la bonne heure !
+            </div>
+          </div>
+          <!-- BONOBO -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/bonobo.jpg" alt="La chanteure BONOBO" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">BONOBO</span><br />
+              C'est l'Anglais Simon Green, originaire de Brighton avant de s'exiler à Los Angeles, qui se cache derrière le nom simiesque de Bonobo. A la fois DJ, producteur et musicien, ce
+              quadragénaire a opté pour le versant le plus apaisé de l'électro, entre ambient, électronica et trip hop. En toute tranquillité, il construit des ambiances cotonneuses où il fait bon
+              chiller, tout en s'autorisant des escapades vers la world music et le nu jazz. Pour incarner ses morceaux basés sur des samples, il aime faire appel à des voix venues de l'extérieur,
+              citons par exemple Kadhja Bonet, Rhye, ou l'immense Erykah Badu. Ce goût du partage se retrouve aussi dans ses performances scéniques, car cet artiste fédérateur s'entoure de tout un
+              groupe de musiciens, plutôt que de se produire seul avec ses machines.
+            </div>
+          </div>
+          <!-- THE CHEMICAL BROTHER -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/the-chemical-bro.jpg" alt="La groupe THE CHEMICAL BROTHERS" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">THE CHEMICAL BROTHER</span><br />
+              En 1989, Ed Simons et Tom Rowlands ont formé leur groupe à Manchester, inspirés par la vitalité de la scène musicale de leur ville (la salle de l'Haçienda en tête). Pionniers du
+              mouvement big beat, un sous-genre de l'electro qu'ils ont porté au firmament avec Fatboy Slim et The Prodigy, les deux Anglais ont derrière eux plus de trente ans de carrière et une
+              ribambelle de tubes inoxydables, notamment Hey Boy Hey Girl, nourri par la house, Block Rockin'Beats, ou encore Let Forever Be et Setting Sun, tous deux chantés par Noel Gallagher. Les
+              Chemical Brothers font souvent appel à des voix extérieures, de Beck à Aurora. Leur dernier album en date, No Geography, date de 2019 et montre à quel point ce tandem perdure sur son
+              trône, transformant ses shows hédonistes en grande célébration de toutes les musiques électroniques.
+            </div>
+          </div>
+          <!-- TOVE LO -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/tove-lo.jpg" alt="La chanteuse de TOVE LO" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">TOVE LO</span><br />
+              “Etes-vous prêts à pleurer et à danser avec moi ?”, demande malicieusement Tove Lo sur YouTube dans la note d'intention qui accompagne le clip de No One Dies from Love, single phare de
+              son cinquième album, Dirt Femme, dévoilé en octobre dernier. La question de cette autrice-compositrice scandinave peut se comprendre comme un clin d'œil à sa réputation de pop-star “la
+              plus dark de Suède”, comme la décrivait le magazine américain Rolling Stone à l'époque de son premier album, Queen of the Clouds (2014). Sa pop se caractérise effectivement par des
+              paroles sans concessions, façon journal intime, juxtaposées à des mélodies mêlant dance, electropop et synth-pop. En charge de son propre répertoire, Tove Lo s'est également illustrée en
+              co-écriture avec d'autres artistes, dont Lorde et Dua Lipa.
+            </div>
+          </div>
+          <!-- LIGNE 2  -->
+          <!-- GLAUQUE -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/glauque.jpg" alt="La chanteur de GLAUQUE" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">GLAUQUE</span><br />
+              Un premier EP éponyme en 2020 et hop, les garçons de Glauque ont démarré leur carrière sans crier gare. Personne n'avait vu venir ce collectif belge, originaire de Namur, et c'est tant
+              mieux : l'effet de surprise s'avère particulièrement efficace. Pour situer leur musique, on citera deux de leurs influences revendiquées, Odezenne et Moderat, soit côté pile du rap
+              éclectique et désenchanté, et côté face de l'electro alliant finesse et puissance. Armé de ces passions complémentaires et d'une aisance en live, le groupe invente ses propres règles du
+              jeu, notamment des textes en français où des questions existentielles basées sur le réel entrent en collision avec une certaine dystopie. Glauque poursuit cette voie sans faire la
+              moindre concession, avec le ton radical qui lui sied si bien depuis trois ans.
+            </div>
+          </div>
+          <!-- COACH PARTY -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/coach-party.png" alt="Le groupe COACH PARTY" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">COACH PARTY</span><br />
+              Ces quatre Anglais dans le vent nous viennent de l'île de Wight, terre verdoyante plantée dans la Manche entre leur patrie et les côtes françaises. Cette proximité géographique avec la
+              France n'explique pas à elle seule tout ce qui nous enivre dans ce rock qui n'a pas peur du tapage. Epaté par des artistes comme les Strokes, Wolf Alice ou Tame Impala, le quatuor mixte
+              sortira son premier album début septembre 2023 seulement, donc c'est à travers ses singles et plusieurs EP qu'il a déjà pu s'illustrer, ou alors en live, en assurant les premières
+              parties de Wet Leg et des Mysterines. Sans aucune baisse de régime, leurs morceaux s'enchaînent et prolongent toujours plus loin leur pouvoir d'attraction. Les festivités de Coach Party
+              ne font que commencer !
+            </div>
+          </div>
+          <!-- CHROMEO  -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/chromeo.jpg" alt="La duo de CHROMEO" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">CHROMEO </span><br />
+              Plus de vingt ans de carrière, une ribambelle d'albums et de maxis, des concerts en pagaille à travers le monde et même une nomination aux Grammy awards : Chromeo a de quoi bomber le
+              torse quand il fait un point sur son CV. Ce duo electro-funk canadien a été monté à Montréal en 2002 par deux anciens camarades de classe, David Macklovitch (alias Dave 1, chanteur et
+              guitariste) et Patrick Gemayel (alias P-Thugg, claviériste et bassiste). Leurs morceaux enivrants poussent au frétillement des corps, et ce ne sont pas les artistes avec qui ils ont
+              collaboré qui diront le contraire. De Solange Knowles à Toro Y Moi, de French Montana et Stefflon Don à Raphael Saadiq, la liste de celles et ceux qui ont travaillé avec ces deux quadras
+              est sans fin. Une bonne façon de montrer la diversité des styles qu'ils manient avec dextérité.
+            </div>
+          </div>
+          <!-- BRACCO -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/bracco.png" alt="Le duo de BRACCO" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">BRACCO</span><br />
+              BRACCO Des beats implacables, des synthés rêches et une envie d'en découdre là, tout de suite : bienvenue dans le monde de Bracco, duo parisien qui fait un braquage dans la scène dark
+              wave de la capitale. Signés chez l'irréprochable label indépendant Born Bad, Baptiste et Loren en sont déjà à leur deuxième album, Dromonia, conçu en résidence à La Station, Gare des
+              Mines, puis enregistré au studio La Seine et enfin sorti en fin d'année dernière. Entre post-punk lancinant et techno sombre, leur musique nous saisit autant en studio que sur scène,
+              avec Loren installé aux synthés et aux machines en tout genre, et Baptiste au chant et à la guitare. Revendiquant haut et fort son amour pour DAF, Suicide, Throbbing Gristle et autres
+              Psychic TV, Bracco débarque avec fracas dans cet arbre généalogique aux branches tortueuses.
+            </div>
+          </div>
+          <!-- LIGNE 3 -->
+          <!-- HUMAN EYES -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/human-eyes.png" alt="Le groupe human Eyes" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">HUMAN EYES</span><br />
+              Union du métal death et progressif, voici Human Eyes. Fondé par des musiciens passionnés, Human Eyes tente toujours de repousser les limites du genre. Riffs puissants, batterie énervée
+              et growls s'allient pour créer des compositions à l'image du groupe. Regard porté sur le monde, le groupe tente toujours d'allier des textes introspectifs aux sons de la septième corde
+              pour plaire au public. Préparez-vous à être transporté dans un univers où la beauté et la brutalité se rencontrent, et où la communion avec le public est le mot d'ordre.
+            </div>
+          </div>
+          <!-- GAZ COOMBES -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/gaz-combes.jpg" alt="Le chanteur de Gaz Coombes" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">GAZ COOMBES</span><br />
+              “Longue vie aux bizarres” chante Gaz Coombes sur son nouvel album solo, Turn the Car Around, sorti cet hiver. Le chanteur et guitariste hirsute de Supergrass a toujours eu un faible pour
+              les antihéros et cette quatrième œuvre en solitaire ne déroge pas à la règle. En explorant aujourd'hui le glam rock et la soul, ce natif d'Oxford offre une musicalité plus soignée qu'à
+              ses débuts et un timbre de voix d'une solidité impressionnante, sans perdre sa frénésie en live. Capable, comme ses copains des Last Shadow Puppets, d'alterner entre ballades sensibles
+              et rythmes plus pêchus, le quadra anglais est l'énième preuve qu'il y a bel et bien une vie après la Britpop, comme l'ont déjà confirmées les trajectoires de Damon Albarn ou des frères
+              Gallagher.
+            </div>
+          </div>
+          <!-- SHMI SKA  -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/shmi ska.png" alt="Le duo Shmi Ska" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">SHMI SKA </span><br />
+              Formé une semaine avant sa qualification pour Rock en Seine, Shmiska est un groupe d'indie-rock qui s'est constitué comme une évidence. Musicien·ne·s depuis l'enfance, le trio a vécu une
+              semaine de préparation intense qui a mis leurs talents à rude épreuve, poussé par l'envie de vivre de nouvelle expérience grâce à la musique. Laissez-vous séduire par leur spontanéité et
+              leurs musiques envoutantes !
+            </div>
+          </div>
+          <!-- THE STOKES -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/the-strokes.jpg" alt="Le groupe The Stokes" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">THE STOKES</span><br />
+              Rarissime en France, le quintet incarne à lui seul le rock moderne, heureux de faire référence à son passé tout en restant à l'affût des sons d'aujourd'hui. Ces New-Yorkais nous feront
+              l'honneur d'une visite au parc de Saint-Cloud, pour la première fois de leur carrière et en exclusivité. On trépigne d'impatience à l'idée de voir sur scène Julian Casablancas et sa
+              bande, dont le sixième album, The New Abnormal, produit par le légendaire Rick Rubin, a été l'un des grands moments de l'année musicale 2020. Cette dernière sortie en date s'est révélée
+              fabuleuse, mais les Américains savent aussi faire plaisir aux fans de la première heure, en interprétant des extraits de leur glorieux répertoire, notamment certains singles qu'ils ont
+              regroupé fin 2022 dans un gargantuesque coffret.
+            </div>
+          </div>
+          <!-- LIGNE 4 -->
+          <!-- FEATHER AID -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/feather-day.png" alt="Le groupe Feather Day" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">FEATHER AID</span><br />
+              Feather Aid est avant tout un groupe d'amis. Ils se sont naturellement rapprochés les uns des autres autour de leur passion commune pour la musique, et c'est ainsi que le groupe de rock
+              a vu le jour. Le mélange de leurs profils assez différents a donné naissance à leurs premières compositions, qui continuent à évoluer au fil du temps. Thomas, le guitariste, et Eloi, le
+              chanteur/bassiste, sont à l'origine de leurs premières musiques, comptant toujours sur Paul Enee, le deuxième guitariste, et Rafaël, le batteur, pour apporter la touche finale à chaque
+              morceau. Après plus de deux ans de concerts aux quatre coins de l'Île-de-France, le quatuor tient bon, multipliant les nouvelles compositions de rock progressif, avec une soif de scène
+              et d'adrénaline de plus en plus intense.
+            </div>
+          </div>
+          <!-- TAMINO -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/tamino.jpg" alt="Le chanteur Tamino" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">TAMINO</span><br />
+              Tamino fait partie de ces artistes qui ont le pouvoir magique de suspendre le temps dès l'instant où ils ouvrent la bouche : un ensorcellement auditif auquel on succombe sans aucune
+              protestation. Sa voix de quatre octaves et son premier album habité (Amir, 2018) lui ont valu des comparaisons au regretté Jeff Buckley, avec qui il partage un grand nombre d'influences
+              (Edith Piaf, Leonard Cohen…). Heureusement, l'Anversois de 26 ans a su s'éloigner de cette référence qui lui collait à la peau. Sur son deuxième album, Sahar, sorti en septembre dernier,
+              il canalise ses envolées lyriques pour des ambiances folk plus feutrées, sans pour autant renier son ADN, en particulier les touches orientales qui ont fait la gloire de son grand-père,
+              le chanteur égyptien Moharram Fouad. Sa seconde participation à Rock en Seine est attendue avec impatience.
+            </div>
+          </div>
+          <!-- BLUMI -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/blumi.jpg" alt="La chanteuse Blumi" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">BLUMI</span><br />
+              BLUMI De Feist à Bon Iver, de Thousand à Olivier Marguerit, la Franco-Britannique Emma Broughton (alias Blumi) a accompagné des artistes vibrant⸱e⸱s. En plus d'être sur tous les bons
+              coups, cette chanteuse multi-instrumentiste commence également à tisser sa propre œuvre solo : un premier EP, I Know About You, en 2021, suivi de There Is No End in Me l'année dernière.
+              Sur ces deux maxis, on assiste aux premiers pas d'une artiste qui sait comment nous remuer profondément, en tout élégance, sans se disperser, avec une pop intemporelle qui fait cohabiter
+              paisiblement l'acoustique et l'électronique. Une musique harmonieuse où l'on perçoit une admiration pour le jazz, Joan As a Policewoman et Beth Gibbons. L'un de ses morceaux s'appelle
+              Everyone Heals, “tout le monde guérit” : les chansons réconfortantes de Blumi y sont pour quelque chose.
+            </div>
+          </div>
+          <!-- NIELLE ELLA -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/nielle-ella.jpg" alt="La chanteuse Nielle Ella" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">NIELLE ELLA</span><br />
+              De ses débuts sur TikTok, Nielle Ella a gardé une immédiateté rafraichissante, loin des stars inaccessibles de la pop d'aujourd'hui. Cette Anglaise a accédé à la cour des grands en
+              signant chez AWAL (quartier général de Girl In Red, Little Simz, Jungle…). Son premier single, dévoilé l'été dernier, a laissé place début 2023 à un EP, Young & Naive, regroupant cinq
+              morceaux indie pop qu'elle a composés, avec des textes qui reflètent ses questionnements de jeune adulte (“Je me sens grande mais je suis toujours sur la plage arrière”, chante-t-elle
+              dans le refrain de 19 in a Week). Elle dit s'inspirer d'artistes comme Sam Fender et Phoebe Bridgers, des références bien de son âge (20 ans) et les musiciens qui l'accompagnent sur
+              scène comptent parmi ses meilleurs amis. Retenez bien ce nom !
+            </div>
+          </div>
+          <!-- LIGNE 5 -->
+          <!-- NKA -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/nka.jpg" alt="La chanteuse NKA" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">NKA</span><br />
+              Quand la douceur apaisante de November Ultra fusionne avec la néo-soul de Jorja Smith, on obtient des sonorités proches de ce que propose NKA, chanteuse qui compose elle-même ses
+              chansons. A califourchon entre la langue française et l'anglais, entre ses observations sur sa vie parisienne et ses racines camerounaises, cette artiste à fleur de peau sonde son vague
+              à l'âme avec finesse et pudeur. Avant de livrer son premier EP, La Lune, en décembre dernier, NKA a collaboré avec une foule de talents aux influences multiples : Mykki Blanco, Clara
+              Luciani, Lous and the Yakuza, Kiddy Smile… C'est désormais en solitaire que cette jeune femme s'exprime, en piochant dans le R'n'B, l'electro minimaliste, le gospel, le jazz et la
+              chanson française. A découvrir d'urgence !
+            </div>
+          </div>
+          <!-- VIAGRA BOY -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/viagra-boy.jpg" alt="Le groupe Viagra Boy" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">VIAGRA BOY</span><br />
+              A des années-lumière des poses coquettes et des discours inoffensifs de certains groupes à guitares actuels, ce gang de Stockholm revient à l'essence même du rock : le danger. Iggy Pop,
+              qui chantait Gimme Danger il y a pile cinquante ans, fait partie de leur fan-club. Trois albums, sortis entre 2018 et 2022, permettent de mesurer l'ampleur de leur génie, de leurs riffs
+              destroy à leurs rythmiques implacables, sans oublier l'humour noir qui surgit par piques impitoyables dans leurs paroles. Tous les machos, conspirationnistes et populistes en prennent
+              pour leur grade sur ces brûlots qui entremêlent post-punk tumultueux et rock ardent. Est-il bien nécessaire de préciser que leurs concerts émeutiers sont largement à la hauteur de ce
+              qu'ils proposent en studio ? Assurément l'un des groupes les plus bouillonnants de la scène rock de 2023.
+            </div>
+          </div>
+          <!-- TURNSTILE -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/turnstile.jpg" alt="Le groupe Turnstile" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">TURNSTILE</span><br />
+              Issu de la scène hardcore de Baltimore, ce groupe tout feu tout flamme a l'audace de sa jeunesse et ose le décloisonnement, alors que beaucoup de formations punk respectent un peu trop
+              scrupuleusement les dogmes de ce genre musical. Résultat : les albums de Turnstile comportent souvent des guests de luxe venus d'autres styles, par exemple Diplo, Blood Orange, ou encore
+              la chanteuse et guitariste Julien Baker. Pour se préparer aux déflagrations ébouriffantes que nous réservent ces Américains, on peut d'ores et déjà écouter leurs trois albums, publiés
+              entre 2015 et 2021. Le dernier en date, Glow On, a été vivement acclamé outre-Atlantique, à tel point qu'ils ont reçu trois nominations aux Grammy Awards 2023.
+            </div>
+          </div>
+          <!-- THE BIG IDEA -->
+          <div class="col-sm-3 col-md-6 col-xl-3 mb-3">
+            <div class="artiste-image d-flex justify-content-center">
+              <img class="img-fluid" style="border-radius: 30px; padding: 0" src="/images/Artistes/the-big-idea.jpg" alt="Le groupe The Big Idea" />
+            </div>
+            <div
+              class="artiste-text text-center"
+              style="color: white; border: 2px solid #533708; border-radius: 35px; margin-top: 20px; background: linear-gradient(180deg, #533708 0%, #ffa300 46.88%, #ffa300 100%)">
+              <span style="font-size: 15px; color: white">THE BIG IDEA</span><br />
+              Vivre à deux pas de la mer pousse à l'évasion vers le grand large. Les six compères de ce groupe, anciens camarades de lycée à La Rochelle, ne s'appellent pas The Big Idea pour rien. Le
+              regard vers l'horizon, ils ont effectivement eu une “grande idée”, un projet fou à réaliser ensemble : enregistrer un album à bord d'un voilier voguant sur l'Atlantique. Après une
+              préparation rigoureuse durant laquelle ils ont écrit des démos, appris à naviguer et retapé un bateau (Le Grand Vésigue), les compères se sont lancés et le fantasme est devenu
+              réalité.L'album en question, La fabuleuse expédition Le Grand Vésigue, rend compte de ce trip improbable mais vrai à travers des morceaux somptueux, d'une jolie fluidité entre pop
+              finement orchestrée, esprit rock et inspirations capverdiennes suite à une escale sur les terres de Cesária Evora.lutôt que de se produire seul avec ses machines.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEBUT FOOTER -->
+    <footer class="container-fluid" style="background-color: #533708">
+      <div class="row d-flex justify-content-center align-items-center text-center">
+        <div class="col-sm-12 col-md-9 col-xl-9 text-center">
+          <a href="https://www.firestone.fr/"><img src="/images/Partenaires/Firestone.svg" alt="Logo Firestone" /></a>
+          <a href="https://www.hauts-de-seine.fr/"><img src="/images/Partenaires/Haut-de-Seine.svg" alt="Logo Haut de Seine" /></a>
+          <a href="https://www.iledefrance.fr/"><img src="/images/Partenaires/Region-ile-de-France.svg" alt="Logo Region Ile de France" /></a>
+          <a href="https://www.saintcloud.fr/"><img src="/images/Partenaires/Saint-Cloud.svg" alt="Logo Saint Cloud" /></a>
+          <a href="https://www.brut.media/fr"><img src="/images/Partenaires/BRUT.svg" alt="Logo BRUT" /></a>
+          <a href="https://www.liberation.fr/"><img src="/images/Partenaires/Liberation.svg" alt="Logo Libération" /></a>
+          <a href="https://www.france.tv/"><img src="/images/Partenaires/France-tv.svg" alt="Logo France TV" /></a>
+          <a href="https://swinkelsfamilybrewers.com"><img src="/images/Partenaires/Swinkels.svg" alt="Logo Swinkels" /></a>
+        </div>
+        <!-- TITRE -->
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-9 col-xl-9 text-center" style="color: white">
+            <h1>
+              <a href="/Index.html" style="text-decoration: none"><span style="color: white; font-size: 70px">NATION SOUND</span></a>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <!--BTN NEWSLETTER-->
+      <div class="row">
+        <div class="col-4 d-flex justify-content-start">
+          <button type="button" class="btn btn-newsletter">Inscription Newsletter</button>
+        </div>
+        <!-- RESAUX SOCIAUX -->
+        <div class="col-sm-8 d-flex justify-content-end" style="margin-bottom: 10px">
+          <div class="sociaux-footer">
+            <a href="https://www.facebook.com/votrepage" target="_blank">
+              <img src="/images/sociaux/Facebook.svg" alt="Logo Facebook" />
+            </a>
+            <a href="https://www.snapchat.com/add/votrecompte" target="_blank">
+              <img src="/images/sociaux/Snapchat.svg" alt="Logo Snapchat" />
+            </a>
+            <a href="https://twitter.com/votrecompte" target="_blank">
+              <img src="/images/sociaux/X.svg" alt="Logo Twitter" />
+            </a>
+            <a href="https://www.linkedin.com/company/votrepage" target="_blank">
+              <img src="/images/sociaux/Linkedin.svg" alt="Logo Linkedin" />
+            </a>
+            <a href="https://www.youtube.com/votrechaine" target="_blank">
+              <img src="/images/sociaux/Youtube.svg" alt="Logo Youtube" />
+            </a>
+            <a href="https://www.instagram.com/votrecompte/" target="_blank">
+              <img src="/images/sociaux/Instagram.svg" alt="Logo Instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FIN FOOTER -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+  </body>
 </html>

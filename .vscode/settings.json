@@ -1,3 +1,7 @@
-{
-    "liveServer.settings.port": 5504
+{  "liveServer.settings.port": 5504,
+  "prettier.bracketSameLine": true,
+  "prettier.bracketSpacing": true,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.endOfLine": "auto",
+  "prettier.enableDebugLogs": true
 }
